@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F4F4F4;
+}
+
+.nav-bar{
+    background-color: rgb(240, 90, 34);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 8px 8px rgb(255, 190, 157);
+}
+.icons-container{
+    width: 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    border-radius: 40px;
+}
+.icons{
+    color: rgb(255, 190, 157);
+    font-size: 20px;
+}
+.home-page{
+    margin: 30px 25px;
+    background-color: #F4F4F4;;
+}
+.info-page{
+    margin: 30px 25px;
+    background-color: #F4F4F4;;
+}
+.search-bar{
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom : 20px
+}
+h2{
+    margin: 10px 0;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.user-card{
+    padding: 20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 10px;
+}
+.user-card img{
+    border-radius: 10px;
+    height: 200px
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more-btn{
+    background: linear-gradient(45deg,#F05A22, #F78E48);
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    align-self: center;
+    padding: 10px;
+    border-radius: 8px; 
+}
+.title p{
+    font-size: 12px;
+}
+.active .icons{
+    color:#F05A22;
+}
+span{
+    font-weight: bolder;
+    color:#F05A22;
+}
+.poster-card{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.detail-btn,.info-btn{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+}
+.detail-btn{
+    margin-right: 10px;
+}
+.poster-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.poster-card img{
+    border-radius: 10px;
+}
